@@ -13,7 +13,7 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">Halo!, Nama saya Muhammad Awla Ridhani, dan saya seorang pengembang Software terkhususnya di bagian website. Saya memiliki cukup pengalaman dalam membuat website baik dari Tampilan (Frontend) maupun Balik layarnya (Backend).</p>
-                        <a href="doc/CV-Awla.pdf" download={"doc/CV-Awla.pdf"} className="btn">Download CV</a>
+                        <a href={`${process.env.PUBLIC_URL}/files/CV-ATS-AWLA.pdf`} download={"doc/CV-Awla.pdf"} className="btn">Download CV</a>
                     </div>
 
                     <div className="about__skills grid">

@@ -105,6 +105,28 @@
 
     .about__data {
         padding: 1.675rem;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about__container {
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.375rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about__data::before {
+        top: -1.25rem;
+        left: 45%;
+    }
+
+    .about__data {
+        padding: 1.675rem;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 1.875rem;
     }

@@ -104,6 +104,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    .home__social-link{
+        font-size: 1.125rem;
+    }
+    
     .scroll__down {
         bottom: 12.5vh;
     }
