@@ -23,7 +23,7 @@ const Menu = [
         id:3,
         image: Work3,
         title: "TravelNation - Aplikasi Destinasi",
-        category: "website",
+        category: "aplikasi mobile",
     },
 
 ];

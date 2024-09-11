@@ -1,18 +1,18 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/image/AwlaInstagram.jpg"
+import Image from "../../assets/image/Me.jpeg"
 
 const About = () => {
     return (
         <section className='about container section' id='about'>
-            <h2 className="section__title">About Me</h2>
+            <h2 className="section__title">Tentang Saya</h2>    
 
             <div className="about__container grid">
-                <img src={Image} alt="" className="about__img img__circle" />
+                <img src={Image} alt="" className="about__img img__circle-about" />
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">Halo!, Nama saya Muhammad Awla Ridhani, dan saya seorang pengembang Software terkhususnya di bagian website. Saya memiliki cukup pengalaman dalam membuat website baik dari frontend(Tampilan) maupun backend(Balik Layar).</p>
+                        <p className="about__description">Halo!, Nama saya Muhammad Awla Ridhani, dan saya seorang pengembang Software terkhususnya di bagian website. Saya memiliki cukup pengalaman dalam membuat website baik dari Tampilan (Frontend) maupun Balik layarnya (Backend).</p>
                         <a href="doc/CV-Awla.pdf" download={"doc/CV-Awla.pdf"} className="btn">Download CV</a>
                     </div>
 

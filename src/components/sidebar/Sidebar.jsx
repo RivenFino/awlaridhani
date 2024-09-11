@@ -31,7 +31,7 @@ const Sidebar = () => {
                         </li>
                         
                         <li className="nav__item">
-                            <a href="#portofolio" className="nav__link">
+                            <a href="#resume" className="nav__link">
                                 <i className="icon-graduation"></i>
                             </a>
                         </li>

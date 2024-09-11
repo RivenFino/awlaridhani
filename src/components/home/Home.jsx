@@ -10,7 +10,7 @@ const Home = () => {
             <div className="intro">
                 <img src={Me} alt="" className="home__img img__circle" />
                 <h1 className="home__name">Awla Ridhani</h1>
-                <span className="home__education">Saya Seorang Pengembang Web</span>
+                <span className="home__education">Pelajar Rekayasa Perangkat Lunak</span>
 
                 <HeaderSocials  />
 

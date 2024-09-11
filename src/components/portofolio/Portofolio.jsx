@@ -3,18 +3,26 @@ import Menu from './Menu';
 import "./portofolio.css";
 
 const Portofolio = () => {
-    const [items, setItems] = useState(Menu)
+    const [items, setItems] = useState(Menu);
+    const filterItem = (categoryItem) => {
+        const updatedItems = Menu.filter((curElem) => {
+            return curElem.category === categoryItem;
+        });
+
+        setItems(updatedItems);
+    }
+
     return (
-        <section className="work container section" id="work">
+        <section className="work container section" id="portofolio">
             <h2 className="section__title">
                 Projek Terakhir
             </h2>
 
             <div className="work__filters">
-                <span className="work__item">Semua</span>
-                <span className="work__item">Website</span>
-                <span className="work__item">Aplikasi Mobile</span>
-                <span className="work__item">Desain UI/UX</span>
+                <span className="work__item" onClick={()=>setItems(Menu)}>Semua</span>
+                <span className="work__item" onClick={()=>filterItem("website")}>Website</span>
+                <span className="work__item" onClick={()=>filterItem("aplikasi mobile")}>Aplikasi Mobile</span>
+                {/* <span className="work__item" onClick={()=>filterItem("uiux")}>Desain UI/UX</span> */}
             </div>
 
             <div className="work__container grid">

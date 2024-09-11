@@ -35,3 +35,10 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
+
+@media screen and (max-width: 767px) {
+    .aside {
+        visibility: hidden;
+        width: 0;
+    }
+}

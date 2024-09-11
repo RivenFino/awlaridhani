@@ -6,7 +6,7 @@
   --first-color:hsl(210, 100%, 65%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
+  --body-color: hsl(264, 45%, 98%);
   --container-color: #fff;
 
   --body-font: 'Rubik', sans-sherif;
@@ -22,6 +22,7 @@
   --font-bold: 700;
 
   --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+  --shadow2: 0px 10px 20px 10px rgb(69 67 96 / 20%);
 
   --border-radius: 20px;
 }
@@ -36,6 +37,10 @@
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
   
+  }
+
+  .aside {
+    width: 55px;
   }
 }
 
@@ -138,7 +143,7 @@ img {
 
 @keyframes button-push {
     50% {
-      transform: scale(0.8);
+      transform: scale(0.9);
     }
 
     100% {

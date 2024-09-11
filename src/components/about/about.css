@@ -1,11 +1,11 @@
-.img__circle {
+.img__circle-about {
     border-radius: 100%;
     width: 200px;
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    filter: brightness(1.5);
+    filter: brightness(1);
 }
 
 .about__container {
@@ -28,11 +28,11 @@
     content:'';
     width: 0;
     height: 0;
-    border-top: 10px solid transparent;
+    border-top: 20px solid transparent;
     border-bottom: 10 solid transparent;
-    border-right: 15px solid var(--container-color);
+    border-right: 25px solid var(--container-color);
     position: absolute;
-    left: -0.93rem;
+    left: -1.3rem;
     top: 20%;
 }
 
@@ -86,4 +86,26 @@
 .uiux {
     width: 52%;
     background-color: rgb(231, 255, 92);
+}
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.375rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about__data::before {
+        top: -1.25rem;
+        left: 45%;
+    }
+
+    .about__data {
+        padding: 1.675rem;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.875rem;
+    }
 }
