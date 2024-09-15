@@ -35,6 +35,7 @@
     font-size: var(--small-font-size);
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
+    margin-bottom: 1.75rem;
 }
 .nav__toggle {
     position: fixed;

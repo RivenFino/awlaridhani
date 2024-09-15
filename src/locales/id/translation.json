@@ -1,0 +1,46 @@
+{
+    "about": {
+        "title": "Tentang Saya",
+        "description": "Halo! Nama saya Muhammad Awla Ridhani, dan saya seorang pengembang Software terkhususnya di bagian website. Saya memiliki cukup pengalaman dalam membuat website baik dari Tampilan (Frontend) maupun Balik layarnya (Backend).",
+        "downloadCv": "Unduh CV",
+        "skillsTitle": "Keahlian",
+        "skills": {
+            "frontend": "Front-End",
+            "backend": "Back-End",
+            "uiux": "Desain UI/UX"
+        }
+    },
+    "home": {
+        "name": "Awla Ridhani",
+        "education": "Pelajar Rekayasa Perangkat Lunak",
+        "contact": "Hubungi Saya",
+        "scroll-name": "Gulir Ke Bawah"
+    },
+    "journey": {
+        "title": "Perjalanan Saya",
+        "education": "pendidikan",
+        "experience": "pengalaman"
+    },
+    "skills": {
+        "title": "Saya Mampu Menggunakan"
+    },
+    "contact": {
+        "title": "Hubungi Saya",
+        "infoTitle": "Mau langsung kirimkan email?",
+        "infoDetails": "Langsung saja kirimkan pesan anda!",
+        "placeholderName": "Isi nama anda",
+        "placeholderEmail": "Isi email anda",
+        "placeholderMessage": "Isi pesan anda",
+        "buttonSend": "Kirimkan pesan",
+        "buttonSending": "Mengirim...",
+        "validation": {
+            "requiredFields": "Semua kolom wajib diisi. Harap lengkapi semua kolom."
+        },
+        "emailJS": {
+            "successMessage": "Pesan berhasil terkirim!",
+            "errorMessage": "Pesan gagal terkirim, coba lagi nanti.",
+            "logSuccess": "Pesan terkirim!",
+            "logError": "Gagal mengirim pesan"
+        }
+    }
+}

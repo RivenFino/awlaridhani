@@ -100,7 +100,7 @@
     top: .5rem;
     left: 50%;
     transform: translateX(-50%);
-    animation: ani-mouse 2s linear infinite;
+    animation: ani-mouse 1s linear infinite;
 }
 
 @media screen and (max-width: 767px) {
@@ -127,12 +127,12 @@
         background-color: var(--title-color);
         border-radius: 0%;
         width: 0.25rem;
-        height: 0.75rem;
+        height: 0.85rem;
         position: absolute;
         top: .1rem;
-        left: 50%;
+        left: 66.7%;
         transform: translateX(-50%);
-        animation: ani-mouse 1.4s ease-out infinite;
+        animation: ani-mouse 1s ease-in infinite;
     }
 
     @keyframes ani-mouse {
@@ -145,11 +145,13 @@
         }
     
         50% {
-            top: 50%;
+            top: 80%;
+            height: 0.35rem;
         }
     
         100% {
             top: 14%;
+            height: 0.35rem;
         }
     }
 }

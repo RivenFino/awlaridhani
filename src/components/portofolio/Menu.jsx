@@ -1,31 +1,44 @@
 import Work1 from "../../assets/image/Exceed.png";
 import Work2 from "../../assets/image/Resepsionis.png";
 import Work3 from "../../assets/image/TravelNation.jpeg";
-import Work4 from "../../assets/work-4.svg";
 
-const Menu = [
-
+export const Menu = [
     {
-        id:1,
+        id: 1,
         image: Work1,
-        title: "Exceed - Ecommerce Gitar",
-        category: "website",
+        title: {
+            en: "Exceed - Guitar Ecommerce",
+            id: "Exceed - Ecommerce Gitar"
+        },
+        category: {
+            en: "website",
+            id: "website"
+        }
     },
-
     {
-        id:2,
+        id: 2,
         image: Work2,
-        title: "Resepsionis Sekolah",
-        category: "website",
+        title: {
+            en: "School Receptionist",
+            id: "Resepsionis Sekolah"
+        },
+        category: {
+            en: "website",
+            id: "website"
+        }
     },
-
     {
-        id:3,
+        id: 3,
         image: Work3,
-        title: "TravelNation - Aplikasi Destinasi",
-        category: "aplikasi mobile",
-    },
-
+        title: {
+            en: "TravelNation - Destination App",
+            id: "TravelNation - Aplikasi Destinasi"
+        },
+        category: {
+            en: "mobile app",
+            id: "aplikasi mobile"
+        }
+    }
 ];
 
-export default Menu
+export default Menu;

@@ -55,6 +55,59 @@
     height: 100%;
 }
 
+
+/* Modal */
+
+.contact__modal.hidden {
+    display: none;
+}
+
+
+.contact__modal {
+    padding: 0 1.275rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 2, 12, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.header__modal {
+    position: absolute;
+    top: 0.675rem;
+    right: 1.15rem;
+}
+
+.close__modal {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.body__modal {
+    background: white;
+    padding: 1.275rem 2.15rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.messa {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semibold);
+}
+
+.contact__modal i {
+    font-size: 50px;
+}
+
+
 @media screen and (max-width: 767px) {
     .contact__container {
         grid-template-columns: repeat(1, 1fr);

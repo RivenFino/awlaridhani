@@ -1,0 +1,46 @@
+{
+    "about": {
+        "title": "About Me",
+        "description": "Hello! My name is Muhammad Awla Ridhani, and I am a Software Developer, especially in web development. I have considerable experience in creating websites, both from the Frontend and Backend.",
+        "downloadCv": "Download CV",
+        "skillsTitle": "Skills",
+        "skills": {
+            "frontend": "Front-End",
+            "backend": "Back-End",
+            "uiux": "UI/UX Design"
+        }
+    },
+    "home": {
+        "name": "Awla Ridhani",
+        "education": "Software Engineering Student",
+        "contact": "Contact Me",
+        "scroll-name": "Scroll Down"
+    },
+    "journey": {
+        "title": "My Journey",
+        "education": "Education",
+        "experience": "Experience"
+    },
+    "skills": {
+        "title": "I Can Use"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "infoTitle": "Want to send an email directly?",
+        "infoDetails": "Just send your message!",
+        "placeholderName": "Enter your name",
+        "placeholderEmail": "Enter your email",
+        "placeholderMessage": "Enter your message",
+        "buttonSend": "Send Message",
+        "buttonSending": "Sending...",
+        "validation": {
+            "requiredFields": "All fields are required. Please fill out all fields."
+        },
+        "emailJS": {
+            "successMessage": "Message sent successfully!",
+            "errorMessage": "Message failed to send, please try again later.",
+            "logSuccess": "Message sent!",
+            "logError": "Failed to send message"
+        }
+    }
+}
