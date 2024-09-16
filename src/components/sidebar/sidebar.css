@@ -104,6 +104,8 @@
         position: fixed;
         display: flex;
         right: 0;
+        z-index: 100;
+        font-size: 1.725rem;
     }
     
     .nav__toggle-open {
