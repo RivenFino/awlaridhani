@@ -3,8 +3,10 @@ import './sidebar.css';
 import Logo from '../../assets/logo.svg';
 import { sectionIds } from './sectionIds'; // Mengimpor sectionIds dari sectionIds.jsx
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Sidebar = () => {
+    const { t, i18n } = useTranslation();
     const [toggle, showMenu] = useState(false);
     const [activeLink, setActiveLink] = useState("home");
     const [isScrolled, setIsScrolled] = useState(false);
@@ -64,7 +66,7 @@ const Sidebar = () => {
                                     <li key={i} className="nav__item" onClick={() => scrollToSection(section.id)}>
                                         <Link className={activeLink === section.id ? "active nav__link" : "nav__link"} onClick={() => showMenu(!toggle)} to="/">
                                             <i className={section.icon}></i>
-                                            <p className='text'>{section.id}</p>
+                                            <p className='text'>{t(section.title[i18n.language])}</p>
                                         </Link>
                                     </li>
                                 ))
