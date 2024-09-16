@@ -20,7 +20,7 @@ const Resume = () => {
     const experienceData = filterDataByCategories(categories.experience);
 
     return (
-        <section className="resume container section" id="story">
+        <section className="resume container section" id="journey">
             <h2 className="section__title">{t('journey.title')}</h2> 
 
             <div className="resume__container grid">

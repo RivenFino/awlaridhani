@@ -1,26 +1,37 @@
 import React from 'react';
+import styled from 'styled-components';
 import './footer.css';
 import image from '../../assets/image/Ryo-Yamada/1.jpg';
 import image2 from '../../assets/image/Ryo-Yamada/2.jpg';
 
-const Footer = () => {
-    const footer__img = {
-        backgroundImage: `url(${image2})`,
-        width: '100%',
-        height: '60%',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        backgroundPosition: '50% 70%',
-        objectFit: 'cover',
-        objectPosition: '50% 70%',
-        filter: 'grayscale(0.5) brightness(70%)',
-      };
+const FooterImg = styled.div`
+  background-image: url(${image2});
+  width: 100%;
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
+  filter: grayscale(0.5) brightness(70%);
+  display: flex;
+  padding-left: 1.25rem;
+  color: #fff;
+justify-content: start;
+align-items: center;
+  
+  @media screen and (max-width: 1024px) {
+    height: 50%;
+    }
+    
+    @media screen and (max-width: 767px) {
+    background-position: 50% 40%;
+    background-image: url(${image});
+  }
+`;
 
+const Footer = () => {
     return (
         <footer className='footer'>
-            <div  className='image' style={footer__img }alt="">
-                
-            </div>
+            <FooterImg >Rivenly &copy; 2024</FooterImg>
         </footer>
     );
 }

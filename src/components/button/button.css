@@ -28,8 +28,8 @@
 
 .language__toggle {
     position: fixed;
-    right: 40px;
-    top: 25px;
+    top: 1.25rem;
+    right: 1.375rem;
     transition: .3s ease;
 }
 
@@ -49,6 +49,7 @@
         top: 1.25rem;
         right: 1.375rem;
         z-index: 10;
+        opacity: .7;
     }
 
     .language__container {

@@ -1,30 +1,31 @@
 import './App.css';
 import { useTranslation } from 'react-i18next';
 import Sidebar from './components/sidebar/Sidebar';
-import About from './components/about/About';
-import Home from './components/home/Home';
-import Services from './components/services/Services';
-import Resume from './components/resume/Resume';
-import Portofolio from './components/portofolio/Portofolio';
-import Contact from './components/contact/Contact';
-import LanguageButton from './components/button/LanguageButton';
-import Footer from './components/footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HomePage } from './pages/homePage';
 
 function App() {
   return (
-    <>
+    <div className='App'>
+      <Router>
       <Sidebar />
-      <main className='main'>
-      <LanguageButton />
-        <Home />
-        <About />
-        <Services />
-        <Portofolio />
-        <Resume />
-        <Contact />
-        <Footer/>
-      </main>
-    </>
+        <Routes>
+          <Route path='/' element={<HomePage />}></Route>
+        </Routes>
+      </Router>
+    </div>
+    // <>
+    //   <main className='main'>
+    //   <LanguageButton />
+    //     <Home />
+    //     <About />
+    //     <Services />
+    //     <Portofolio />
+    //     <Resume />
+    //     <Contact />
+    //     <Footer/>
+    //   </main>
+    // </>
   );
 }
 
