@@ -76,11 +76,15 @@
     }
     .aside {
         top: -100%;
+        visibility: hidden;
         width: 100%;
         padding: 6rem 0rem;
         justify-content: start;
         align-items: center;
         gap: 1.765rem;
+    }
+    .aside.show-menu {
+        visibility: visible;
     }
     .nav {
         width: 100%;
