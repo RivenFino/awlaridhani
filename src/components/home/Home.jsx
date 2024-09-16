@@ -17,7 +17,7 @@ const Home = () => {
 
                 <HeaderSocials  />
 
-                <a href="#contact" className='btn '>{t('home.contact')}</a>
+                <a href="#portofolio" className='btn '>{t('home.btn')}</a>
 
                 <ScrollDown />
             </div>

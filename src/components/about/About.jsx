@@ -1,4 +1,5 @@
 import React from 'react';
+import { calculateAge } from './birthCalc';
 import { useTranslation } from 'react-i18next';  
 import Image from "../../assets/image/Me.jpeg";
 import "./about.css"
@@ -6,6 +7,8 @@ import "./about.css"
 
 const About = () => {
     const { t, i18n } = useTranslation("global");  
+    const birthdate = '2007-01-19';
+    const age = calculateAge(birthdate);
 
     return (
         <section className='about container section' id='about'>
@@ -16,7 +19,7 @@ const About = () => {
 
                 <div className="about__data grid">
                     <div className="about__info">
-                        <p className="about__description">{t('about.description')}</p>
+                        <p className="about__description">{t('about.description', {age})}</p>
                         <a href={`${process.env.PUBLIC_URL}/files/CV-ATS-AWLA.pdf`} download={"doc/CV-Awla.pdf"} className="btn">{t('about.downloadCv')}</a>
                     </div>
 

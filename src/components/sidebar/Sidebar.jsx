@@ -31,16 +31,16 @@ const Sidebar = () => {
                                     <i className="icon-briefcase"></i>
                                 </a>
                             </li>
-                            
+
                             <li className="nav__item">
-                                <a href="#story" className="nav__link">
-                                    <i className="icon-graduation"></i>
+                                <a href="#portofolio" className="nav__link">
+                                    <i className="icon-layers"></i>
                                 </a>
                             </li>
                             
                             <li className="nav__item">
-                                <a href="#portofolio" className="nav__link">
-                                    <i className="icon-layers"></i>
+                                <a href="#story" className="nav__link">
+                                    <i className="icon-graduation"></i>
                                 </a>
                             </li>
                             
@@ -56,7 +56,7 @@ const Sidebar = () => {
 
                 <div className="nav__footer">
                     <span className="copyright">
-                        &copy; Riven
+                        &copy; Riven 2024
                     </span>
                 </div>
             </aside>
