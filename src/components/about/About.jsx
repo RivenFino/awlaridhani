@@ -20,7 +20,7 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">{t('about.description', {age})}</p>
-                        <a href={`${process.env.PUBLIC_URL}/files/CV-ATS-AWLA.pdf`} download={"doc/CV-Awla.pdf"} className="btn">{t('about.downloadCv')}</a>
+                        <a href={`${process.env.PUBLIC_URL}/files/CV-ATS-AWLA.pdf`} download={`${process.env.PUBLIC_URL}/files/CV-ATS-AWLA.pdf`} className="btn">{t('about.downloadCv')}</a>
                     </div>
 
                     <div className="about__skills grid">
