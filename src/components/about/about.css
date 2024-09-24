@@ -5,7 +5,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    filter: brightness(1);
+    object-position: 30% 10%;
+    filter: brightness(1.245) grayscale(.18);
 }
 
 .about__container {

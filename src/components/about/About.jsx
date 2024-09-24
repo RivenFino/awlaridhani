@@ -1,7 +1,7 @@
 import React from 'react';
 import { calculateAge } from './birthCalc';
 import { useTranslation } from 'react-i18next';  
-import Image from "../../assets/image/Me.jpeg";
+import Image from "../../assets/image/Awla2.jpg";
 import "./about.css"
     
 
