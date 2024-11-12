@@ -15,12 +15,18 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .intro {
     margin-bottom: 8rem;
     max-width: 550px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home__img {
@@ -153,5 +159,10 @@
             top: 14%;
             height: 0.35rem;
         }
+    }
+}
+@media screen and (max-width: 468px) {
+    .home{
+        
     }
 }
