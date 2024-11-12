@@ -85,7 +85,7 @@ const data = [
         },
         description_content: {
             en: "Figma is cloud-based application used to design, prototype, and collaborate in real-time. Figma is a popular tool for designing User Interface (UI) and User Experience (UX).",
-            id: "React JS adalah library JavaScript open-source yang digunakan untuk membuat user interface (UI) aplikasi web dan mobile. React JS dirancang untuk menyederhanakan proses pembuatan UI interaktif dengan cara berbasis komponen.  Figma adalah aplikasi berbasis cloud yang digunakan untuk mendesain, membuat prototipe, dan berkolaborasi secara real-time. Figma merupakan alat yang populer untuk mendesain User Interface (UI) dan User Experience (UX). "
+            id: "Figma adalah aplikasi berbasis cloud yang digunakan untuk mendesain, membuat prototipe, dan berkolaborasi secara real-time. Figma merupakan alat yang populer untuk mendesain User Interface (UI) dan User Experience (UX).  "
         }
     },
 ];
