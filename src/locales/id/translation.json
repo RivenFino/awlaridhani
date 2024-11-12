@@ -2,13 +2,26 @@
     "about": {
         "title": "Tentang Saya",
         "description": "Halo! Nama saya Muhammad Awla Ridhani, saya berumur {{age}} tahun dan saya seorang pengembang Software khususnya di bagian website. Saya memiliki cukup pengalaman dalam membuat website baik dari Tampilan (Frontend) maupun Balik layarnya (Backend).",
-        "downloadCv": "Unduh CV",
+        "downloadCv": "Resume Saya",
         "skillsTitle": "Keahlian",
         "skills": {
-            "frontend": "Front-End",
-            "backend": "Back-End",
-            "uiux": "Desain UI/UX"
-        }
+            "frontend": "Front-End Web",
+            "backend": "Back-End Web",
+            "uiux": "Desain UI/UX",
+            "mobile": "Front-End Mobile"
+        },
+        "hobby": "Hobi-Hobi",
+        "hobbies": [
+            "Main Game",
+            "Ngoding",
+            "Dengerin Musik",
+            "Masak",
+            "Berkendara",
+            "Memotret",
+            "Menggambar",
+            "Nonton Sesuatu",
+            "Mengedit"
+        ]
     },
     "home": {
         "name": "Awla Ridhani",
@@ -23,16 +36,9 @@
     },
     "skills": {
         "title": "Saya Mampu Menggunakan",
-        "hobbies": [
-            "Main Game",
-            "Ngoding",
-            "Dengerin Musik",
-            "Masak",
-            "Berkendara",
-            "Memotret",
-            "Menggambar",
-            "Nonton Sesuatu"
-        ]
+
+        "summary": "Ringkasan",
+        "description": "Deskripsi"
     },
     "contact": {
         "title": "Hubungi Saya",

@@ -1,14 +1,27 @@
 {
     "about": {
         "title": "About Me",
-        "description": "Hello! My name is Muhammad Awla Ridhani. I am {{age}} years old and I am a software developer, particularly in the field of websites. I have considerable experience in creating websites, both in Front-End and Back-End development.",
-        "downloadCv": "Download CV",
+        "description": "Hello! My name is Muhammad Awla Ridhani. I am {{age}} years old and I am a software developer, Especially in the website section. I have considerable experience in creating websites, both in Front-End and Back-End development.",
+        "downloadCv": "My Resume",
         "skillsTitle": "Skills",
         "skills": {
-            "frontend": "Front-End",
-            "backend": "Back-End",
-            "uiux": "UI/UX Design"
-        }
+            "frontend": "Front-End Web",
+            "backend": "Back-End Web",
+            "uiux": "UI/UX Design",
+            "mobile": "Front-End Mobile"
+        },
+        "hobby": "Hobbies",
+        "hobbies": [
+            "Gaming",
+            "Coding",
+            "Listening Music",
+            "Cooking",
+            "Riding",
+            "Taking Photos",
+            "Drawing",
+            "Watching Something",
+            "Editing"
+        ]
     },
     "home": {
         "name": "Awla Ridhani",
@@ -32,7 +45,9 @@
             "Taking Photos",
             "Drawing",
             "Watching Something"
-        ]
+        ],
+        "summary": "Summary",
+        "description": "Description"
     },
     "contact": {
         "title": "Contact Me",
